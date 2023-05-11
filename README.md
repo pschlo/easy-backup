@@ -5,9 +5,9 @@ The goal of this program is to provide a user-friendly interface for setting up 
 The project has been abandoned.
 
 
-|                          |                   |
-| ------------------------ | ----------------- |
-| **Start of development** | 2020              |
-| **End of development**   | June 2020         |
-| **Current status**       | Abandoned         |
+|                          |           |
+| ------------------------ | --------- |
+| **Start of development** | 2020      |
+| **End of development**   | July 2020 |
+| **Current status**       | Abandoned |
 
