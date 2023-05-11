@@ -1,0 +1,24 @@
+
+- ID: 0
+  name: My first backup
+  sources:
+    - D:\foo\bar\baz
+    - C:\flutter\cache
+    - D:\Downloads\foo
+  destination: D:\Backups
+  intervals:
+    full: 1w
+    differential: 1d
+
+- ID: 1
+  name: Yet another backup
+  sources:
+    - D:\Cars\Porsche\Windowless models
+    - D:\university\homework
+    - C:\my pictures\vacation 2019
+  destination: D:\Backups\2
+  intervals:
+    full: 3d
+
+- name: test
+  ID: 2

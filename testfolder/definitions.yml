@@ -1,0 +1,40 @@
+# EXAMPLE
+# 0:    # unique ID
+#     name: My example backup
+#     
+#     sources:
+#        - D:\foo\bar\baz
+#        - C:\flutter\cache
+#        - D:\Downloads\foo
+#         
+#     destination: D:\Backups
+#     
+#     # full, differential, incremental
+#     
+#     # d=days, w=weeks, m=months, y=years
+#     # e.g.: 3d = repeat every 3 days
+#     interval: 3d
+
+
+-
+    ID: 0
+    name: My first backup
+    sources:
+        - D:\foo\bar\baz
+        - C:\flutter\cache
+        - D:\Downloads\foo
+    destination: D:\Backups
+    intervals:
+        full: 1w
+        differential: 1d
+- 
+    ID: 1
+    name: Yet another backup
+    sources:
+        - D:\Cars\Porsche\Windowless models
+        - D:\university\homework
+        - C:\my pictures\vacation 2019
+    destination: D:\Backups\2
+    intervals:
+        full: 3d
+    
