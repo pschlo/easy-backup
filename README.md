@@ -8,5 +8,6 @@ The project has been abandoned.
 |                          |                   |
 | ------------------------ | ----------------- |
 | **Start of development** | Beginning of 2020 |
+| **End of development**   | June 2020         |
 | **Current status**       | Abandoned         |
 
