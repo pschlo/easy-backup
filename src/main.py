@@ -4,7 +4,15 @@ from tkinter import messagebox
 import csv
 import os
 from backup_type import BackupType, DayWeek, IntervalSetter
+from pathlib import Path
 # import backup_type
+
+
+if '__file__' not in globals():
+    raise Exception('This program must be executed as a file')
+
+src_dir = Path(__file__).resolve().parent
+
 
 appdata = os.getenv('appdata')
 assert isinstance(appdata, str)
@@ -43,7 +51,7 @@ root.title('EasyBackup')
 # root.geometry('800x500')
 bg = root['bg']
 # font = ('Verdana', 20)
-root.iconbitmap('favicon.ico')
+root.iconbitmap(src_dir / 'images/favicon.ico')
 
 title = tk.Label(root, text="EasyBackup", font="TkDefaultFont 25 bold italic", anchor="w")
 title.grid(row=0, column=0)
